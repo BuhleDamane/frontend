@@ -1,0 +1,154 @@
+/* src/Pages/Careers.css */
+
+.careers-container {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .careers-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .careers-header h1 {
+    font-size: 3rem;
+    color: brown; 
+    font-family: "Playfair Display", serif;
+
+  }
+  
+  .careers-header p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .current-openings {
+    margin-bottom: 40px;
+  }
+  
+  .current-openings h2 {
+    font-size: 2rem;
+    color: brown; /* Classy and elegant color */
+    border-bottom: 2px solid #F5CBB6;
+    font-family: "Roboto Serif", serif;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .current-openings ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .current-openings li {
+    margin-bottom: 30px;
+  }
+  
+  .current-openings h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+
+  }
+  
+  .current-openings p {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .apply-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: brown; /* Classy and elegant color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .apply-button:hover {
+    background-color: #F5CBB6; /* Slightly darker shade for hover effect */
+  }
+  
+  .our-team {
+    margin-top: 40px;
+  }
+  
+  .our-team h2 {
+    font-size: 2rem;
+    color: brown; /* Classy and elegant color */
+    border-bottom: 2px solid #F5CBB6;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .team-member-info {
+    flex: 1;
+  }
+  
+  .team-member h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 0;
+    font-family: "Roboto Serif", serif;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    margin: 5px 0;
+    font-family: "Poppins", sans-serif;
+  }
+  .head{
+    margin-right: 13px;
+  }
+  .ceo{
+    margin-right: 9px;
+  }
+  @media (max-width: 768px) {
+    .careers-container {
+      padding: 20px;
+    }
+  
+    .careers-header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .current-openings h2 {
+      font-size: 1.5rem;
+    }
+  
+    .team-member img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .team-member h3 {
+      font-size: 1.1rem;
+    }
+  }
+  

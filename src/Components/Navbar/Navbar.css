@@ -1,0 +1,82 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -25px;
+    height: 60px;
+}
+.navbar{
+    padding: 5px;
+    box-shadow: 0 1px 3px -2px black;
+   margin-top: -20px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.logo{
+    width: 200px;
+    height: 115px;
+}
+.nav-search .search{
+    font-size: 20px;
+    margin-top: -10px;
+   color: #626262;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #626262;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto Serif", system-ui;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+.nav-menu hr{
+    border: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background: brown;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: -20px;
+}
+.nav-login-cart .login{
+   font-size: 20px;
+   color: #626262;
+}
+.nav-login-cart .shopping{
+    font-size: 20px;
+   color: #626262;
+
+}
+.nav-login-cart .login:active{
+    color: brown;
+
+}
+.nav-cart-count{
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: -40px;
+    border-radius: 5px;
+    font-size: 8px;
+    background: red;
+    color: white;
+}

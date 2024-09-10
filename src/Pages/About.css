@@ -1,0 +1,68 @@
+.about-container {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-header h1 {
+    font-size: 3rem;
+    color: brown; 
+    font-family: "Playfair Display", serif;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-family: "Roboto Serif", serif;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h3 {
+    font-size: 1.6rem;
+    color: brown; /* Classy and elegant color */
+    border-bottom: 2px solid #F5CBB6;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-family: "Roboto Serif", serif;
+  }
+  
+  section p {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 20px;
+    }
+  
+    .about-header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .about-content h2 {
+      font-size: 1.5rem;
+    }
+  
+    section h3 {
+      font-size: 1.3rem;
+    }
+  }
+  

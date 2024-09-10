@@ -1,0 +1,33 @@
+.hero {
+    position: relative;
+    height: 82vh; /* Full viewport height */
+    overflow: hidden; /* Prevents scrollbars from appearing */
+  }
+
+.hero-video{
+    object-fit: cover;
+    z-index: -1;
+    height: 82vh; /* Full viewport height */
+  width: 100%;
+  position: relative;
+}
+.hero-text {
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    z-index: 2;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem; 
+    margin: 0;
+    font-family: "Playfair Display", serif;
+  }
+  .hero-text p{
+    font-family: "Roboto Serif", system-ui;
+    font-size: 12px;
+    text-align: center;
+  }

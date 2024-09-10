@@ -1,0 +1,123 @@
+.footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .footer-content {
+    text-align: center;
+   align-items: center;
+   
+     /* This ensures that the sections spread out horizontally */
+    margin: 0 auto;
+    max-width: 1200px; /* Optional: sets a maximum width for the footer content */
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    max-width: 100%;
+  }
+  .footer-section h2{
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .policies-links {
+    display: flex;
+    justify-content: center; 
+    gap: 5px; 
+  }
+  
+  .policies-links a {
+    color: brown;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .policies-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Subscribe form styling */
+  .subscribe-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .subscribe-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .subscribe-form .subscribe-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: brown;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .subscribe-form .subscribe-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Center the social media links */
+  .social-links {
+    display: flex;
+    justify-content: center; /* Centers the social links horizontally */
+    gap: 20px; /* Adds space between each social link */
+    margin-top: 20px; /* Optional: space between sections */
+  }
+  
+  .social-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  .whatsapp{
+    color: #25D366;
+  }
+  .facebook{
+    color: #1877F2;
+  }
+  .twitter{
+    color: #000000;
+  }
+  .insta{
+    color: #E1306C;
+  }
+  .footer-bottom {
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center; /* Keeps footer-bottom centered */
+  }
+  .glow{
+    color: brown;
+    font-family: "Roboto Serif", serif;
+    font-weight: 500;
+  }
